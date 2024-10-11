@@ -47,4 +47,10 @@
     public static int getResult(int item1, int item2) {
         return item1 + item2;
     }
+
+    /**
+     *  javac UserInfo.java
+     *  javac Main.java
+     *  java Main
+     */
 }
