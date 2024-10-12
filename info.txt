@@ -44,3 +44,30 @@ The abstract keyword is a non-access modifier, used for classes and methods:
 
 An abstract class can have both abstract and regular methods:
 
+-------------------------------------------------
+Convention over Configuration (often abbreviated as CoC) is a software design principle that aims to reduce the amount of decision-making a developer has to do by following predefined, sensible defaults for most settings and behaviors. The idea is that if developers follow these conventions, they won’t need to spend time writing configurations for common or standard behavior.
+Key Concepts:
+
+    Conventions as Defaults: The framework or tool assumes a standard way of doing things. If you follow this convention, you don’t need to specify or configure anything. However, if you deviate from the conventions, you can override them with configurations.
+
+    Less Configuration: By adhering to conventions, developers can write less boilerplate code or configurations (like XML or YAML) because the framework "knows" the defaults based on naming conventions, folder structures, or coding patterns.
+
+    Streamlining Development: This approach speeds up the development process, as developers can rely on established conventions and avoid configuration-heavy environments, which can get complex over time.
+
+Examples:
+
+    Ruby on Rails: Rails uses convention over configuration extensively. For example, if you create a User model, Rails expects a corresponding users table in the database by default. If you want to use a different table name, you'd need to configure it explicitly.
+
+    Spring Boot (Java): Spring Boot automatically configures various components like database connections or security based on a set of defaults. If your application follows these defaults, no additional configuration is required.
+
+Benefits:
+
+    Faster Development: Developers can focus on writing the actual business logic instead of spending time on configuration.
+    Reduced Complexity: Fewer configuration files lead to cleaner codebases.
+
+Drawbacks:
+
+    Learning Curve: Developers need to learn and understand the framework’s conventions.
+    Less Flexibility: Sometimes, conventions may not fit every use case, so customization might be needed, which requires overriding the defaults.
+
+In summary, Convention over Configuration simplifies software development by providing reasonable defaults and reducing the need for manual setup, which increases productivity when conventions are followed.
